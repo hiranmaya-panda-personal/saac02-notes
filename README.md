@@ -23,3 +23,16 @@ aws s3 ls
 4. Hybrid Cloud = Public & Private Clouds
 
 Hybrid Cloud != public cloud + legacy on-premises infrastructure (= Hybrid networking)
+
+## Serivce Models
+Infrastructure stack.
+
+Based on the "Unit of consumption", the type of service model is defined.
+Ex: EC2 instance's UoC is the OS, Netflix's UoC is the application & nothing else.
+
+On-premises vs DC Hosted - Traditionally used. Datacentre hosting vendor provided Facilities for consumption.
+
+Cloud service Models
+1. IaaS - UoC is O/S
+2. PaaS (esp. used by the Developers) - UoC is Runtime
+3. SaaS - UoC is the application
