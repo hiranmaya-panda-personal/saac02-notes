@@ -5,9 +5,11 @@ Access Key ID
 Secret Key
 
 AWS CLI v2
+```bash
 aws --version
 aws configure --profile <profilename>
 aws s3 ls
+```
 
 ## Cloud Computing
 1. On-demand self-service
@@ -47,27 +49,31 @@ Human readable - data serialization language.
 key: value format
 
 *List Examples:*
-```yaml key: ["value 1","value 2","value 3"]```
+```yaml 
+key: ["value 1","value 2","value 3"]
+```
 
 OR
 
-yaml key:
+```yaml 
+key:
  - value 1
  - "value 2"
  - 'value 3'
+ ```
  
 Indentation is critical in YAML to verify the correct structure of items within a List.
 
 *YAML Dictionary:* 
 Unordered set of key-value pairs.
-
+```yaml
 parent_key:
   - key1: value1
     key2: ["value2", "value3"]
   - key3: "value 4"
     key4: value5
     key5: 1.2
-
+```
 ### JSON
 JavaScript Object Notation!
 - Lightweight data-interchange format.
@@ -77,12 +83,16 @@ Used in AWS's CloudFormation & other services, ex - Policy documentation.
 
 *JSON object*
 - Unordered set of key-value pairs. Enclosed by { & }.
-- Ex - {key1: value1, key2: value2}
+```json 
+{key1: value1, key2: value2}
+```
 - Analogus to YAML's dictionary.
 
 *JSON Array*
 - Ordered collection of values. Enclosed by [ & ].
-- Ex - [value1, value2, value3]
+```json 
+[value1, value2, value3]
+```
 - Analogus to YAML's Lists.
 
 JSON objects can be nested for complex structures.
