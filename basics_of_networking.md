@@ -16,12 +16,16 @@ The software that manages Layer 1 through 7 can be termed as the "NETWORKING STA
 
 ## Layer 1: Physical
 Defines transmission & receiving of *raw bit streams* between *a device* & a *shared physical medium*.
+
 It may define voltage levels, timings, rates, distances, modules and connectors.
 
 <ins>Network Hub:</ins>
 Anything recieved on any port is transmitted to all other ports, including errors and collisions(multiple devices trying to transmit at once).
 
-There is no device addressing. All data is processed by all devices.
+There is no device addressing. 
+
+All data is processed by all devices.
+
 L1 has <b>no media access control</b> and/or <b>collision detection</b>.
 
 
