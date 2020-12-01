@@ -28,6 +28,16 @@ All data is processed by all devices.
 
 L1 has <b>no media access control</b> and/or <b>collision detection</b>.
 
+## Layer 2: Data link
+
+Runs over a fully functional layer 1.
+Introduces an unique hexadecimal MAC address(OUI + NIC).
+
+Provides "frames".
+Frames = container(preamble + destination MAC address + source MAC address + EtherType[L3 protocol] + Payload + frame check sequence)
+
+Provides controlled access to the physical medium.
+
 
 
 
